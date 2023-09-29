@@ -32,6 +32,32 @@ plt.show()
 plt.plot(ypoints, linestyle = 'dashed')
 plt.show()
 
+plt.plot(ypoints, ls=':')
+plt.show()
+
+plt.plot(ypoints, linestyle= 'dashed', color='r')
+plt.show()
+
+
+ypoints1=np.array([3,8,1,10])
+ypoints2=np.array([6,2,7,3])
+ypoints3=np.array([1,3,5,7])
+
+plt.plot(ypoints1)
+plt.plot(ypoints2)
+plt.plot(ypoints3)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
