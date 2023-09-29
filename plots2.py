@@ -32,6 +32,7 @@ y=np.array([0.5,10,20,30,40,50])
 x=['z','a','b','c','d','e']
 exp=[0,0,0,0,0,0.2]
 plt.pie(y, labels=x, startangle=90, explode=exp, shadow= True)
+plt.legend(title='Voting Result')
 
 plt.show()
 
