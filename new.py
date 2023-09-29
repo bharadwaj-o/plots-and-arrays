@@ -81,8 +81,33 @@ print(x)
 print()
 arr=np.array([1,2,3,4,5])
 x=arr.copy()
+y=arr.view()
+print(x.base)
+print(y.base)
+print()
 
 
+arr=np.array([[1,2,3,4,5],[6,7,8,9,10]])
+print(arr.shape)
+
+arr=np.array([1,2,3,4], ndmin=5)
+print(arr)
+print("The shape of the array is: ", arr.shape)
+arr=np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+newarr=arr.reshape(4,3)
+print(newarr)
+print(newarr.base)
+print()
+newarr=arr.reshape(2,3,2)
+print(newarr)
+arr=np.array([1,2,3,4,5,6,7,8])
+newarr=arr.reshape(4,2)
+print(newarr)
+print()
+
+arr=np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+newarr=arr.reshape(2,2,-1)
+print(newarr)
 
 
 
