@@ -23,6 +23,25 @@ plt.show()
 plt.plot(ypoints, marker='D')
 plt.show()
 
+plt.plot(ypoints, 'o-.k')
+plt.show()
+
+plt.plot(ypoints, 'o:g', ms =10,mec='k', mfc = 'w')
+plt.show()
+
+plt.plot(ypoints, linestyle = 'dashed')
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
